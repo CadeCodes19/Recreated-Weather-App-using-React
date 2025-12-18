@@ -1,5 +1,6 @@
 import searchImg from "../images/search.png";
 import { useState } from "react";
+import Trie from "../utils/Trie.js";
 
 function SearchBar({ onSearch }) {
   const [value, setValue] = useState("");
